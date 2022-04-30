@@ -1,0 +1,69 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1{
+    font-weight: 400;
+}
+
+header{
+    /* all headers children block elements are arranged in a row using display flex */
+    display: flex;
+    /*Resource for flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    justify-content: space-between;
+    margin: 0 3rem;
+
+}
+
+nav{
+    /* 1 rem = 16px */
+    /* width is given to increase size of conatiner nav */
+    width: 20rem;
+    /* margin given to align sidemost elements in one line */
+    margin-top:1rem;
+    margin-right: 3rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    /* remove bullets */
+    list-style:none;
+    font-size: 1.5rem;
+
+}
+
+a{
+    /* remove underline from links */
+    text-decoration: none;
+    color: black;
+}
+
+.showcase-img{
+    /* vw --> defines size of browser or viewport & is used for responsive image*/
+    width: 95vw;
+    margin: 1rem;
+}
+
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+
+.content{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
